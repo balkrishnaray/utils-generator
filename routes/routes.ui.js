@@ -8,7 +8,7 @@ router.get("/",(req,res) =>{
 router.get("/converter/:currency1/:currency2/:value", async (req,res) => {
     const {currency1,currency2,value} = req.params;
     const CC = require('currency-converter-lt')
-let currencyConverter = new CC({from:"currency1", to:"currency2", amount:Number(value)});
+const currencyConverter = new CC({from:currency1, to:currency2, amount:Number(value)});
 
 
     //pute the code form prev exercise
