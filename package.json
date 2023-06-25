@@ -1,0 +1,29 @@
+{
+  "name": "utils-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/balkrishnaray/utils-generator.git"
+  },
+  "keywords": [
+    "express",
+    "nodejs"
+  ],
+  "author": "Balkrishna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/balkrishnaray/utils-generator/issues"
+  },
+  "homepage": "https://github.com/balkrishnaray/utils-generator#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
