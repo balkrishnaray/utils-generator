@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h1><li><a href="/">home</a></li></h1>
+    <h2>Give your contact details </h2>
+    <form action="backend.php">
+       
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="myname" id="name">
+        </div>
+        <br>
+        
+        <div>
+            <label for="role">Role:</label>
+            <input type="text" name="myRole" id="role">
+        </div>
+        <br>
+        
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="myEmail" id="email">
+        </div>
+        <br>
+        
+        <div>
+            <label for="Date">Date:</label>
+            <input type="date" name="myDate" id="Date">
+        </div>
+        <br>
+        
+        <div>
+            <label for="hours">Hours:</label>
+          <input type="number" name="myhours" id="hours" >
+        </div>
+        
+        <br>
+        <div>
+            Are you eligible: <input type="checkbox" name="myeligibility" checked>
+        </div>
+        
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="mygender" > Female <input type="radio" name="mygender" > Others <input type="radio" name="mygender">
+        </div>
+        <br>
+        <div>
+            Write About Yourself: <br> <textarea name="mytext"  cols="90" rows="10"></textarea>
+        </div>
+        <label for="car">Car</label>
+        <select name="myCar" id="car">
+            <option value="tesla" selected>Tesla</option>
+            <option value="tata">Tata</option>
+            <option value="toy">Toyata</option>
+        </select>
+        <div>
+         <input type="submit" value="Submit Now">
+         <input type="reset" value="Reset Now">
+        </div>
+        
+    </form>
+    
+</body>
+</html>
