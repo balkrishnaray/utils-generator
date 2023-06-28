@@ -5,7 +5,13 @@ const uiRouter = require("./routes.ui");
 
 
 router.get("/",(req,res) =>{
-    res.json({msg: "Hello from API"});
+    try{
+        res.json({msg: "Hello from API"});
+
+    }
+    catch(err){
+        next(err);
+    }
 } );
 
 module.exports = router;

@@ -6,13 +6,7 @@ router.get("/",(req,res) =>{
     res.render("index");
 } );
 
-router.get("/contact",(req,res)=>{
-    res.render("contact");
-})
 
-router.get("/classes",(req,res)=>{
-    res.render("classes");
-})
 
 router.get("/converter/:currency1/:currency2/:value", async (req,res) => {
     const {currency1,currency2,value} = req.params;
